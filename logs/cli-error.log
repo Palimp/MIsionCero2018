@@ -1,0 +1,82 @@
+2017-09-07 17:45:21 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'misioncero.game' doesn't exist in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'game', Array, Object(Cake\Database\Schema\TableSchema))
+#1 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('game', Array)
+#2 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('game')
+#3 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(217): Cake\ORM\Table->getPrimaryKey()
+#5 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'game', 'Game')
+#7 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Game')
+#8 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(508): Bake\Shell\Task\ModelTask->main('game')
+#9 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(501): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-10 08:24:21 Error: [RuntimeException] Unknown command `cake cake`. Run `cake --help` to get the list of valid commands. in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 173
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'cake')
+#1 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2017-09-12 13:48:40 Error: [RuntimeException] Unknown command `cake cake`. Run `cake --help` to get the list of valid commands. in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 173
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'cake')
+#1 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2017-09-13 07:25:07 Error: [Cake\Database\Exception] SQLSTATE[HY000]: General error: 1356 View 'misioncero.tecos' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'tecos', Array, Object(Cake\Database\Schema\TableSchema))
+#1 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('tecos', Array)
+#2 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('tecos')
+#3 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(412): Cake\ORM\Table->getSchema()
+#4 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(228): Bake\Shell\Task\ModelTask->findHasMany(Object(App\Model\Table\TeamsTable), Array)
+#5 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\TeamsTable))
+#6 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\TeamsTable), 'teams', 'Teams')
+#7 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Teams')
+#8 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(508): Bake\Shell\Task\ModelTask->main('teams')
+#9 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(501): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-19 10:18:00 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'misioncero.interactions' doesn't exist in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'interactions', Array, Object(Cake\Database\Schema\TableSchema))
+#1 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('interactions', Array)
+#2 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('interactions')
+#3 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(217): Cake\ORM\Table->getPrimaryKey()
+#5 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'interactions', 'Interactions')
+#7 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Interactions')
+#8 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(508): Bake\Shell\Task\ModelTask->main('interactions')
+#9 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(501): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-28 15:55:42 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'misioncero.top' doesn't exist in G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'top', Array, Object(Cake\Database\Schema\TableSchema))
+#1 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('top', Array)
+#2 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('top')
+#3 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(217): Cake\ORM\Table->getPrimaryKey()
+#5 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'top', 'Top')
+#7 G:\xampp\htdocs\MisionCero\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Top')
+#8 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(508): Bake\Shell\Task\ModelTask->main('top')
+#9 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\Shell.php(501): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 G:\xampp\htdocs\MisionCero\vendor\cakephp\cakephp\src\Console\CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 G:\xampp\htdocs\MisionCero\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+

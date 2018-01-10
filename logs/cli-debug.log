@@ -1,0 +1,36 @@
+2017-09-13 07:25:45 Notice: Notice (8): Undefined index: Comments in [G:\xampp\htdocs\MisionCero\tmp\bake\Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - ROOT\tmp\bake\Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 204
+Cake\View\View::_render() - CORE\src\View\View.php, line 1129
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 140
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2017-09-28 16:09:35 Notice: Notice (8): Undefined index: Games in [G:\xampp\htdocs\MisionCero\tmp\bake\Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - ROOT\tmp\bake\Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 204
+Cake\View\View::_render() - CORE\src\View\View.php, line 1129
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 140
+[main] - ROOT\bin\cake.php, line 12
+
+
+
